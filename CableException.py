@@ -1,0 +1,3 @@
+class CableDisconnectedException(Exception):
+    pass
+
