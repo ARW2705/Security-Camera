@@ -21,6 +21,11 @@ By default, motion detection is enabled and will begin
 camera recording on activation. The user may also begin
 recording via the messaging socket.
 
+## TODO
+
+* Determine if wait_recording() method should be run in a separate thread or
+  set camera in its own daemon
+
 ## Future plans
 
 * Enable live streaming on demand
